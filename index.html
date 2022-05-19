@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <meta name="viewport" width="device-width", initial-scale="1"/>
+        <title> University Website Design  </title>
+        <link rel="stylesheet", type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="header">
+
+            <nav>
+                <a href="index.html"> <img src="download-removebg-preview.png">  </a>
+                <div class="nav-links">
+                    <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+                    <ul>
+                        <li> <a href="#", target="_blank"> Home </a> </li>
+                        <li> <a href="#", target="_blank"> About </a> </li>
+                        <li> <a href="#", target="_blank"> Courses </a> </li>
+                        <li> <a href="#", target="_blank"> Contact Us</a> </li>
+                        <li> <a href="#", target="_blank"> Queries </a> </li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-xmark"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1> World's Biggest University </h1>
+                <p> Making a website is now one the most easiest things in this world. <br> You just need to learn HTML, CSS and JavaScript and you are good to go</p>
+                <a href="" class="hero-btn"> Visit Us to Know More</a>
+            </div>
+
+        </section>
+        <script>
+            var navLinks = document.getElementById("nav-links");
+
+            function showMenu()
+            {
+                navLinks.style.right = "0";
+
+            }
+
+            function hiddenMenu()
+            {
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
